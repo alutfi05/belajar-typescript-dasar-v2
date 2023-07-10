@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var score = 33;
 score = 44;
 score = 'lutfi';
@@ -31,4 +33,3 @@ var data3 = [1, 2, '3', '4', true, false];
 console.log(data3);
 var seatAllotment;
 seatAllotment = 'aisle';
-// seatAllotment = 'crew'; // error
