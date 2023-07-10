@@ -12,3 +12,10 @@ console.log(userId);
 var isLoggedIn = false;
 // let isLoggedIn = false; // best practice
 console.log(isLoggedIn);
+// any
+var hero; // any - don't use it - better avoid that
+// let hero: string; // best practice
+function getHero() {
+    return 'thor';
+}
+hero = getHero();
