@@ -16,4 +16,14 @@ let isLoggedIn: boolean = false;
 
 console.log(isLoggedIn);
 
+// any
+let hero; // any - don't use it - better avoid that
+// let hero: string; // best practice
+
+function getHero() {
+    return 'thor';
+}
+
+hero = getHero();
+
 export {};
